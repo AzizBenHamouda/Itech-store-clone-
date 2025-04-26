@@ -1,0 +1,187 @@
+.bodytop {
+    padding-left:200px;
+    padding-right:200px;
+    background-color: #fff;
+  }
+  
+  .section {
+    margin-bottom: 4rem; /* Increased spacing between sections */
+  }
+  
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .apple-logo {
+    height: 2.5rem; /* Slightly larger logo to match screenshot */
+    width: 2.5rem;
+  }
+  
+  .section-header h2 {
+    font-size: 2.5rem; /* Larger font size to match screenshot */
+    font-weight: 700;
+    color: #1d1d1f;
+  }
+  
+  .section-content {
+    display: flex;
+    gap: 1.5rem; /* Reduced gap to match the tight layout in the screenshot */
+  }
+  
+  .banner {
+    justify-content:center ;
+    flex: 1;
+    position: relative;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .buy-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 230px;
+    background-color: #0071e3;
+    color: #fff;
+    border: none;
+    border-radius: 9999px; /* Pill shape to match screenshot */
+    padding: 0.75rem 1.5rem; /* Slightly larger padding */
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buy-button:hover {
+    background-color: #005bb5;
+
+  }
+  
+  .products {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  
+  .product-card {
+    background-color: #fff; /* White background to match screenshot */
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    position: relative; /* For positioning the Promo badge */
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  .product-title {
+    font-size: 1.1rem; /* Slightly larger font size */
+    font-weight: 600;
+    color: #1d1d1f;
+   
+  }
+  
+  .product-specs {
+    font-size: 0.9rem;
+    color: #6b7280;
+    margin-bottom: 0.5rem;
+  }
+  
+  .product-price {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 0.25rem;
+  }
+  
+  .product-discount {
+    font-size: 0.9rem;
+    color: #d52c1e;
+    margin-bottom: 0.5rem;
+  }
+  
+  .product-link {
+    font-size: 0.9rem;
+    color: #0071e3;
+    text-decoration: none;
+  }
+  
+  .product-link:hover {
+    text-decoration: underline;
+  }
+  
+  .promo-badge {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: #f5a623;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+  }
+  
+  .heart-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  
+  .heart-icon svg {
+    width: 20px;
+    height: 20px;
+    color: #6b7280;
+    transition: color 0.3s;
+  }
+  
+  .heart-icon svg:hover {
+    color: #d52c1e;
+  }
+  
+  .timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    color: #f5a623;
+  }
+  
+  .timer svg {
+    width: 16px;
+    height: 16px;
+    color: #f5a623;
+  }
+  .promo-badge {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: #f5a623;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+  }
+  
