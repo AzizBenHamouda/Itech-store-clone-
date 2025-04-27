@@ -5,6 +5,7 @@ import Bodytop from './Bodytop/Bodytop'
 import Bodyimage from './Bodyimage/Bodyimage'
 import Bodycenter from './Bodycenter/Bodycenter'
 import Footer from './Footer/Footer'
+import FooterButtom from './FooterButtom/FooterButtom'
 //import Footer from './Footer/Footer'
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Bodyimage />
       <Bodycenter/>
       <Footer/>
+      <FooterButtom/>
     </div>
   )
 }
