@@ -1,54 +1,41 @@
 import React from 'react';
-import './Footer.css'; // Assuming you have a Footer.css file
-
-
-import { faHeart } from '@fortawesome/free-solid-svg-icons'; // Heart icon is a solid icon
+import './Footer.css'; // You'll need to create this CSS file for styling
 
 function Footer() {
   return (
-    <div className="footer-container">
-      <div className="social-icons">
-        <a href="#" className="icon facebook">
-          <FontAwesomeIcon icon={faFacebook} />
-        </a>
-        <span className="divider"></span>
-        <a href="#" className="icon twitter">
-          <FontAwesomeIcon icon={faTwitter} />
-        </a>
-        <span className="divider"></span>
-        <a href="#" className="icon instagram">
-          <FontAwesomeIcon icon={faInstagram} />
-        </a>
-        <span className="divider"></span>
-        <a href="#" className="icon youtube">
-          <FontAwesomeIcon icon={faYoutube} />
-        </a>
-        <span className="divider"></span>
-        <a href="#" className="icon google-plus">
-          <FontAwesomeIcon icon={faGooglePlus} />
-        </a>
-        <span className="divider"></span>
-        <a href="#" className="icon heart">
-          <FontAwesomeIcon icon={faHeart} />
-        </a>
-        <span className="divider"></span>
-        <a href="#" className="icon linkedin">
-          <FontAwesomeIcon icon={faLinkedin} />
-        </a>
-        <span className="divider"></span>
-        <a href="#" className="icon pinterest">
-          <FontAwesomeIcon icon={faPinterest} />
-        </a>
-        <span className="divider"></span>
-        <a href="#" className="icon tiktok">
-          <FontAwesomeIcon icon={faTiktok} />
-        </a>
-        <span className="divider"></span>
-        <a href="#" className="icon whatsapp">
-          <FontAwesomeIcon icon={faWhatsapp} />
-        </a>
+    <footer className="footer">
+      {/* Newsletter Section */}
+      <div className="newsletter-section">
+        <h3>
+          ABONNEZ-VOUS À NOTRE NEWSLETTER <br />
+          et recevez toutes nos nouveautés et nos promotions
+        </h3>
+        <div className="newsletter-input">
+          <input type="email" placeholder="Votre adresse e-mail" />
+          <button>S'abonner</button>
+        </div>
       </div>
-    </div>
+
+      {/* Links Section */}
+      <div className="links-section">
+        <div className="link-column">
+          <span className="icon">🍏</span>
+          <p>Revendeur Agréé Apple</p>
+        </div>
+        <div className="link-column">
+          <span className="icon">🏠</span>
+          <p>Livraison à domicile</p>
+        </div>
+        <div className="link-column">
+          <span className="icon">📞</span>
+          <p>Service commercial 58 402 400</p>
+        </div>
+        <div className="link-column">
+          <span className="icon">💳</span>
+          <p>Paiement à la livraison</p>
+        </div>
+      </div>
+    </footer>
   );
 }
 

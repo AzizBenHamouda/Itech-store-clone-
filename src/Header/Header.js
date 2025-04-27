@@ -11,7 +11,7 @@ function Header() {
         <img
           src={AppleLogo}
           alt="Apple Logo"
-          className="apple-logo"
+          className=""
         />
         <span className="navbar-subtitle">Revendeur Agréé</span>
       </div>

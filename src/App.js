@@ -5,6 +5,7 @@ import Bodytop from './Bodytop/Bodytop'
 import Bodyimage from './Bodyimage/Bodyimage'
 import Bodycenter from './Bodycenter/Bodycenter'
 import Footer from './Footer/Footer'
+//import Footer from './Footer/Footer'
 function App() {
   return (
     <div className='app'>
@@ -12,7 +13,8 @@ function App() {
       <Carousel />
       <Bodytop />
       <Bodyimage />
-<Footer />
+      <Bodycenter/>
+      <Footer/>
     </div>
   )
 }
