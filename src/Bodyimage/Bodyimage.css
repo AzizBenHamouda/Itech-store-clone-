@@ -1,0 +1,15 @@
+.bodyimage-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; /* or any background you prefer */
+    padding: 2rem 0;
+  }
+  
+  .bodyimage-banner {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  

@@ -1,0 +1,72 @@
+/* Footer.css */
+.footer-container {
+  background-color: #111; /* dark background */
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.3);
+}
+
+/* Individual brand colors */
+.facebook:hover {
+  color: #3b5998;
+}
+
+.twitter:hover {
+  color: #00acee;
+}
+
+.instagram:hover {
+  color: #e4405f;
+}
+
+.youtube:hover {
+  color: #ff0000;
+}
+
+.google-plus:hover {
+  color: #db4437;
+}
+
+.heart:hover {
+  color: #ff4757;
+}
+
+.linkedin:hover {
+  color: #0e76a8;
+}
+
+.pinterest:hover {
+  color: #c8232c;
+}
+
+.tiktok:hover {
+  color: #010101;
+}
+
+.whatsapp:hover {
+  color: #25d366;
+}
+
+/* Divider style */
+.divider {
+  height: 20px;
+  width: 2px;
+  background-color: #555;
+  margin: 0 5px;
+}
